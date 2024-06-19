@@ -14,10 +14,10 @@ def main():
         score, feedback = pwd_strength(password)
 
         if score >= 5:
-            print(f"{feedback}\nYour are good to go!")
+            print(f"{feedback}\n\nYour are good to go!")
             break
         else:
-            print(f"{feedback}\nKindly try a stronger password.")
+            print(f"{feedback}\n\nKindly try a stronger password.")
 
 if __name__ == "__main__":
     main()
