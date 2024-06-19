@@ -7,7 +7,7 @@ def main():
               -> Should include upper and lower case letters, numbers and special characters
               -> Do not set a password already in use
               -> Do not include personal information such as name, date of birth, etc.
-              
+
               """)
 
         password = input("Enter your password: ")
@@ -18,3 +18,6 @@ def main():
             break
         else:
             print(f"Kindly try a stronger password.\n{feedback}")
+
+if __name__ == "__main__":
+    main()
