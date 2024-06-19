@@ -17,7 +17,14 @@ def main():
             print(f"\n{feedback}\n\nYour are good to go!")
             break
         else:
-            print(f"\n{feedback}\n\nKindly try a stronger password.")
+            print(f"\n{feedback}")
+            opt = input("Would you like to try a stronger password? (y/n): ")
+
+            if opt == "y" or opt == "Y":
+                continue
+            else:
+                print("Exiting program...")
+                break
 
 if __name__ == "__main__":
     main()
