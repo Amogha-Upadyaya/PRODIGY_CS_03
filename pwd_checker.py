@@ -37,4 +37,4 @@ def pwd_strength(pwd):
     else:
         strength = "Very Weak"
     
-    return score, f"Password Strength: {strength}{feedback}"
+    return score, f"\nPassword Strength: {strength}{feedback}"
