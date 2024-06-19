@@ -29,7 +29,7 @@ def main():
             else:
                 print(f"\n{feedback}")
             
-            opt = input("Would you like to try a stronger password? (y/n): ") # Ask user if they want to try again
+            opt = input("\nWould you like to try a stronger password? (y/n): ") # Ask user if they want to try again
 
             if opt.lower() == "y":
                 continue
